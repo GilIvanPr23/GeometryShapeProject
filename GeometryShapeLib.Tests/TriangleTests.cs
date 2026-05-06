@@ -9,7 +9,7 @@ public class TriangleTests
     public void ZeroSideDataToArea()
     {
         Triangle triangle = new Triangle();
-        triangle.SideA = 5;
+        triangle.SideA = 0;
         triangle.SideB = 10;
         triangle.SideC = 10;
 
