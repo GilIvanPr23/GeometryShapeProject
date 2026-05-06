@@ -18,10 +18,10 @@ jobs:
         dotnet-version: '10.0.x'
         
     - name: Restore
-      run: dotnet restore GeometryShape.sln
+      run: dotnet restore GeometryShape.slnx
       
     - name: Build
-      run: dotnet build GeometryShape.sln --no-restore
+      run: dotnet build GeometryShape.slnx --no-restore
       
     - name: Test
-      run: dotnet test GeometryShape.sln --no-build --verbosity normal
+      run: dotnet test GeometryShape.slnx --no-build --verbosity normal
